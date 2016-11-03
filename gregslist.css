@@ -1,0 +1,100 @@
+/* Navigation Bar */
+
+nav {
+	position: fixed;
+	background-color: #D3D3D3;
+	padding-left: 60px;
+	padding-right: 60px;
+	height: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.left{
+	float: left;
+}
+
+.right {
+	float: right;
+	padding-right: 100px;
+}
+
+.left, .right {
+	padding-top: 15px;
+}
+
+/* Search Bar */
+
+form {
+	width: 500px;
+	border: #D3D3D3;
+}
+
+input {
+	padding: 10px;
+	font-size: .5cm;
+	width: 100%;
+}
+
+.top {
+	top: 100px;
+}
+
+.glass {
+	position: relative;
+	float: right;
+	border: 1px solid #D3D3D3;
+	width: 40px;
+	height: 40px;
+	top: -45px;
+	left: 70px;
+}
+
+/* Pagination */
+
+.toolbar {
+	display: inline-block;
+	top: 200px;
+	font-size: 0;
+	border: 1px solid #D3D3D3;
+	border-radius: 3px;
+
+}
+
+.prev, .next {
+	display: inline-block;
+	font-size: 16px;
+	padding: 8px 15px;
+	border-radius: 3px;
+}
+
+.pgnum {
+	display: inline-block;
+	font-size: 16px; 
+	padding: 0 30px;
+	padding: 8px 25px;
+	border-left: 1px solid #D3D3D3;
+	border-right: 1px solid #D3D3D3;
+}
+
+.top, .toolbar, .list {
+	position: absolute;
+	left: 50px;
+
+/* Ad List */
+
+.list {
+	top: 300px;
+}
+
+.ad {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.date, .location {
+	color: solid #D3D3D3;
+}
+
+
