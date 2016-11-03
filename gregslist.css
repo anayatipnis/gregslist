@@ -39,6 +39,8 @@ input {
 
 .top {
 	top: 100px;
+	position: absolute;
+	left: 50px;
 }
 
 .glass {
@@ -54,6 +56,8 @@ input {
 /* Pagination */
 
 .toolbar {
+	position: absolute;
+	left: 50px;
 	display: inline-block;
 	top: 200px;
 	font-size: 0;
@@ -78,13 +82,11 @@ input {
 	border-right: 1px solid #D3D3D3;
 }
 
-.top, .toolbar, .list {
-	position: absolute;
-	left: 50px;
-
 /* Ad List */
 
 .list {
+	position: absolute;
+	left: 50px;
 	top: 300px;
 }
 
